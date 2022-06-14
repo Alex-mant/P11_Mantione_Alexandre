@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  grid-area: header;
+  width: 90vw;
+  height: 171px;
+}
+
+.logo-header{
+  margin-top: 40px;
+}
+
+.navbar-header{
+  margin-top: 40px;
+}
+
+.navbar-header ol{
+  display: flex;
+  list-style: none;
+}
+
+.navbar-header ol li{
+  margin-left: 57px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+a{
+  text-decoration: none;
+  color: #FF6060;
+}
