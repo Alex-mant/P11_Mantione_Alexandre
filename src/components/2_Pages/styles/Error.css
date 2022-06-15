@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Error-title{
+  margin-top: -30px;
+  font-size: 290px;
+}
+
+.Error-message{
+  font-size: 36px;
+  margin-top: -220px;
+}
+
+.Error-text-format{
+  color: #FF6060;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.back-to-home {
+  font-size: 18px;
+  margin: 100px auto 150px auto;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

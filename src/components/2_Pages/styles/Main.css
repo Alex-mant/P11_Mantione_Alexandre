@@ -1,12 +1,12 @@
 main{
-  grid-area: main;
   background-color: #F6F6F6;
   box-sizing: border-box;
-  border-radius: 25px 25px 0 0   ;
-  padding: 55px;
-  width: 90vw;
+  border-radius: 25px 25px 0 0;
+  padding: 55px 55px 340px 55px;
+  width: 75vw;
+  margin: auto;
 }
 
 .test{
-  width: 80vw;
+  width: 70vw;
 }

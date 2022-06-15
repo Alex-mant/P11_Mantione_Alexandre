@@ -1,21 +1,22 @@
 import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { setMyLogo } from '../../assets/utils/setMyLogo';
 import './Header.css';
  
 const Header = () => {
+ const url = useLocation().pathname.split('/')[1]
 
   useEffect(() => {
-    document.title = `Kasa - ${window.location.href.split("/")[3]}`
+    document.title = url !== '' ? "Kasa - " + url : "Kasa"
   })
 
   return (
   <header>
     {setMyLogo("#FF6060", 210, 68, "header")}
     <nav className='navbar-header'>
-      <ol>
-        <li><a href='Home'>Accueil</a></li>
-        <li><a href="About">A Propos</a></li>
-      </ol>
+      <Link to="/">Accueil</Link>
+      <Link to="/About">A propos</Link>
+      <Link to="/e3f9dc2">404</Link>
     </nav>
   </header>
   )

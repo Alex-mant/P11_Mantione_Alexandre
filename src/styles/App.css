@@ -1,9 +1,0 @@
-.app-wrapper{
-  display: grid;
-  grid-template-areas: 
-  ". header ."
-  ". banner ."
-  ". main ."
-  "footer footer footer";
-  grid-template-columns: 5vw auto 5vw ;
-}

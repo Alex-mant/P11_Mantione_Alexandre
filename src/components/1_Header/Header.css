@@ -2,8 +2,9 @@ header{
   display: flex;
   justify-content: space-between;
   grid-area: header;
-  width: 90vw;
+  width: 75vw;
   height: 171px;
+  margin: auto;
 }
 
 .logo-header{
@@ -14,19 +15,15 @@ header{
   margin-top: 40px;
 }
 
-.navbar-header ol{
-  display: flex;
-  list-style: none;
-}
-
-.navbar-header ol li{
+.navbar-header{
   margin-left: 57px;
   font-weight: 600;
   cursor: pointer;
   font-size: 24px;
 }
 
-a{
+.navbar-header a{
   text-decoration: none;
   color: #FF6060;
+  margin-left: 60px;
 }

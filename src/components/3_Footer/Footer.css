@@ -3,11 +3,12 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-area: footer;
   background-color: rgb(0, 0, 0);
   width: 100vw;
   height: 209px;
   color: #ffff;
+  position: absolute;
+  bottom: 0;
 }
 
 .copyright{
