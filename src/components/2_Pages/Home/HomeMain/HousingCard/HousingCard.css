@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.housing-card{
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  
+  z-index: 1;
+}
+
+.housing-img{
+  width: 340px;
+  height: 340px;
+  background-color: #FF6060;
+}
+
+.gradient-filter{
+  width: 100%;
+  height: 340px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  /*A revoir*/
+  background-color: linear-gradient(rgba(255,255,255,1), rgba(0,0,0,0.5));
+}
+
+.housing-name{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: #FFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}

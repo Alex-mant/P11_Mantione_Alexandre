@@ -2,7 +2,7 @@ header{
   display: flex;
   justify-content: space-between;
   grid-area: header;
-  width: 75vw;
+  max-width: 1240px;
   height: 171px;
   margin: auto;
 }

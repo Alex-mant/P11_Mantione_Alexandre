@@ -1,11 +1,13 @@
 import '../../styles/Main.css';
+import HousingCard from './HousingCard/HousingCard.jsx';
 
 const Main = () => {
+
   return (
-  <main>
-    
-  </main>
+    <main className='home-main'>
+       {HousingCard()}
+    </main>
   )
 }
 
-export default Main;
+export default Main
