@@ -7,9 +7,9 @@ const HousingCard = () => {
 
   return myData.map((data) =>
     <div key={data.id} className='housing-card'>
-      <div className='housing-img'></div>
-      <div className='gradient-filter'></div>
-      <span className='housing-name'>{data.title}</span>
+      <div className='housing-img'><img src={data.cover} alt="" /></div>
+      <div className='gradient-filter'><span className='housing-name'>{data.title}</span></div>
+      
     </div>
   )
 };
