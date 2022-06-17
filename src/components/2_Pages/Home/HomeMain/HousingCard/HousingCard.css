@@ -2,16 +2,11 @@
 
 .housing-card{
   position: relative;
+  max-height: 340px;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
   z-index: 1;
-}
-
-.housing-img{
-  width: 340px;
-  height: 340px;
-  background-color: #FF6060;
 }
 
 img{
