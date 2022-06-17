@@ -36,14 +36,34 @@ const HousingMain = () => {
       </div>
 
       <div className='dropdown-container'>
-        <div className='housingDropDown'>
-          <span>Equipements</span>
-          <div className='dropdownSquare'></div>
+
+        <div className='dd-container'>
+          <div className='housingDropDown'>
+            <span>Description</span>
+            <div className='dropdownSquare'></div>
+          </div>
+          <p className='text-dropdown'>
+            Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants. Au cœur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs d'affaires. Vous êtes à1 station de la gare de l'est (7 minutes à pied).
+          </p>
+        </div>        
+
+        <div className='dd-container'>
+          <div className='housingDropDown'>
+            <span>Équipements</span>
+            <div className='dropdownSquare'></div>
+          </div>
+          <p className='text-dropdown'>
+            Climatisation <br/>
+            Wi-Fi<br/>
+            Cuisine<br/>
+            Espace de travail<br/>
+            Fer à repasser<br/>
+            Sèche-cheveux<br/>
+            Cintres<br/>
+          </p>
         </div>
-        <div className='housingDropDown'>
-          <span>Description</span>
-          <div className='dropdownSquare'></div>
-        </div>
+      
+
       </div>
 
     </main>
