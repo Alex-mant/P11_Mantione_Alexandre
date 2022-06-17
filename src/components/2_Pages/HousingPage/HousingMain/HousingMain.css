@@ -17,6 +17,7 @@
 }
 
 .tags{
+  cursor: pointer;
   margin-right: 10px;
   border: 2px solid transparent;
   background-color: #FF6060;
@@ -54,8 +55,8 @@
 .dropdownSquare{
   width: 18px;
   height: 18px;
-  border-top: 5px solid White;
-  border-right: 5px solid White;
+  border-top: 3px solid White;
+  border-right: 3px solid White;
   margin-top: 7px;
   transform: rotate(-45deg);
   cursor: pointer;
