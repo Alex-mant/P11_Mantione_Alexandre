@@ -3,8 +3,7 @@ import './HousingCard.css'
 
 const HousingCard = () => {
   const myData = data;
-  console.log(myData);
-
+  
   return myData.map((data) =>
     <div key={data.id} className='housing-card'>
       <div className='housing-img'><img src={data.cover} alt="" /></div>
