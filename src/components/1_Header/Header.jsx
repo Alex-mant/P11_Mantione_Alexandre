@@ -16,7 +16,6 @@ const Header = () => {
     <nav className='navbar-header'>
       <Link to="/kasa">Accueil</Link>
       <Link to="/About">A propos</Link>
-      <Link to="/e3f9dc2">404</Link>
     </nav>
   </header>
   )
