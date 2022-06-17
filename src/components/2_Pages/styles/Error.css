@@ -19,10 +19,3 @@
   font-size: 18px;
   margin: 100px auto 150px auto;
 }
-
-main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}

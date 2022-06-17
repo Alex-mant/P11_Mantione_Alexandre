@@ -1,4 +1,11 @@
-main{
+.error-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main, .about-main, .error-main{
   background-color: #F6F6F6;
   box-sizing: border-box;
   border-radius: 25px 25px 0 0;
@@ -7,13 +14,15 @@ main{
   margin: auto;
 }
 
-.test{
-  width: 70vw;
-}
-
 .home-main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
+}
+
+.housing-main{
+  padding-bottom: 340px;
+  max-width: 1240px;
+  margin: auto;
 }

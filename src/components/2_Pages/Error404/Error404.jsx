@@ -9,7 +9,7 @@ const Error404 = () => {
   })
 
   return(
-    <main>
+    <main className='error-main'>
       <h3 className="Error-title Error-text-format">404</h3>
       <p className="Error-message Error-text-format">Oups! La page que vous demandez n'existe pas.</p>
       <nav className="back-to-home">

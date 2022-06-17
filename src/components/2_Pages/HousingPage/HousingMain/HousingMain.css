@@ -1,0 +1,92 @@
+.housing-main h2{
+  color: #FF6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.localisation{
+  font-size: 18px;
+  color: #FF6060;
+}
+
+.tagSection{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags{
+  margin-right: 10px;
+  border: 2px solid transparent;
+  background-color: #FF6060;
+  border-radius: 10px;
+  width: 115px;
+  height: 25px;
+  color: #FFFF;
+  text-align: center;
+  font-weight: 500;
+}
+
+.housing-presentation{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.dropdown-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.housingDropDown{
+  display: flex;
+  justify-content: space-between;
+  width: 582px;
+  height: 52px;
+  background-color:#FF6060;
+  border-radius: 10px;
+  color: #FFFF;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.dropdownSquare{
+  width: 18px;
+  height: 18px;
+  border-top: 5px solid White;
+  border-right: 5px solid White;
+  margin-top: 7px;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+.dropdown-activated{ 
+  /*classList.toggle("dropdown-activated")*/
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.simuPhoto{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.profilePhoto-name{
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+}
+
+.profilePhoto-name span {
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 5px;
+  text-align: right;
+  margin-left: -10px;
+}
+
+.housing-stars{
+  padding-top: 18px;
+}

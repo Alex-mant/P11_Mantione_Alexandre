@@ -7,7 +7,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './components/2_Pages/Home/Home';
 import About from './components/2_Pages/About/About';
 import Error404 from './components/2_Pages/Error404/Error404';
-import ScrollToTop from './assets/utils/ScrollToTop';
+import ScrollToTop from './utils/ScrollToTop';
+import HousingPage from './components/2_Pages/HousingPage/HousingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,8 +17,9 @@ root.render(
         < Header />
         <ScrollToTop>
           <Routes>            
-            < Route exact path='/kasa' element= {<Home />} />  
+            < Route exact path='/Kasa' element= {<Home />} />  
             < Route path='/About/' element= {<About />} />
+            < Route path= '/Housing/' element = {<HousingPage/>} />
             < Route path="*" element= {<Error404 />} />  
           </Routes>
         </ScrollToTop>

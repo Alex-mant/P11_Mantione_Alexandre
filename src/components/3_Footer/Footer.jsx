@@ -1,4 +1,4 @@
-import { setMyLogo } from '../../assets/utils/setMyLogo';
+import { setMyLogo } from '../../utils/setMyLogo';
 import './Footer.css';
 
 const Footer = () => {
