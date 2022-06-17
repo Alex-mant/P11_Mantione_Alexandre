@@ -14,7 +14,7 @@ root.render(
     <Router>
         < Header />
         <Routes>
-          < Route exact path='/' element= {<Home />} />  
+          < Route exact path='/kasa' element= {<Home />} />  
           < Route path='/About/' element= {<About />} />
           < Route path="*" element= {<Error404 />} />  
         </Routes>

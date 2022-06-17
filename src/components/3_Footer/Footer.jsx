@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
-      {setMyLogo('white', 122, 40)}
+      {setMyLogo('white', 122, 40, 'footer')}
     <span className='copyright'>© 2020 Kasa. All rights reserved</span>
     </footer>
     )

@@ -14,7 +14,7 @@ const Header = () => {
   <header>
     {setMyLogo("#FF6060", 210, 68, "header")}
     <nav className='navbar-header'>
-      <Link to="/">Accueil</Link>
+      <Link to="/kasa">Accueil</Link>
       <Link to="/About">A propos</Link>
       <Link to="/e3f9dc2">404</Link>
     </nav>
