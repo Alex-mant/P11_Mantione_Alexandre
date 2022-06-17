@@ -1,7 +1,7 @@
 {
   "name": "kasa",
   "version": "0.1.0",
-  "homepage": "https://alex-mant.github.io",
+  "homepage": "https://alex-mant.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
