@@ -27,3 +27,23 @@
   margin: auto;
 }
 
+.about-main .dd-container{
+  max-width: 1024px;
+  margin: auto;
+}
+
+.about-main .dropdown{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-main{
+  background-color: #FFFFFF;
+  padding-top: 0;
+}
+
+.about-main .text-dropdown{
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
