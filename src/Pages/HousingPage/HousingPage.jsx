@@ -10,7 +10,7 @@ const HousingPage = () => {
 
   return (
     <React.Fragment>
-      < HousingBanner urlBanner={currentHousing.pictures[0]} />
+      < HousingBanner currentHousing={currentHousing}/>
       < HousingMain currentHousing={currentHousing}/>
     </React.Fragment>
   )
