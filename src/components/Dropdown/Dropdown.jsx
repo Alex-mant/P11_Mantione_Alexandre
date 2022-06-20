@@ -1,9 +1,15 @@
 const Dropdown = ({name, text}) => {
+  const hideOrShow = (el) => {
+    const text = el.target.parentElement.parentElement.children[1]
+    el.target.classList.toggle("dropdown-activated");
+    el.target.classList.contains("dropdown-activated") ? text.style.display = "none" : text.style.display = "block";
+  }
+  
   return(
   <div className='dd-container'>
     <div className='dropdown'> {/* classe css à revoir */}
       <span>{name}</span>
-      <div className='dropdownSquare'></div>
+      <div className='dropdownSquare' onClick={hideOrShow.bind(this)}></div>
     </div>
       {Array.isArray(text) ?
       <ul>
