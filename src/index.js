@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
-import Header from './components/1_Header/Header';
-import Footer from './components/3_Footer/Footer';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from './components/2_Pages/Home/Home';
-import About from './components/2_Pages/About/About';
-import Error404 from './components/2_Pages/Error404/Error404';
 import ScrollToTop from './utils/ScrollToTop';
-import HousingPage from './components/2_Pages/HousingPage/HousingPage';
+import HousingPage from './Pages/HousingPage/HousingPage';
+import Header from './components/Header/Header';
+import Home from './Pages/Home/Home';
+import Error404 from './Pages/Error404/Error404';
+import About from './Pages/About/About';
+import Footer from './components/Footer/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,9 +18,9 @@ root.render(
         < Header />
         <ScrollToTop>
           <Routes>            
-            < Route exact path='/Kasa' element= {<Home />} />  
-            < Route path='/About/' element= {<About />} />
-            < Route path= '/Housing/' element = {<HousingPage/>} />
+            < Route exact path='/kasa' element= {<Home />} />  
+            < Route path='/about' element= {<About />} />
+            < Route path= '/housing' element = {<HousingPage/>} />
             < Route path="*" element= {<Error404 />} />  
           </Routes>
         </ScrollToTop>

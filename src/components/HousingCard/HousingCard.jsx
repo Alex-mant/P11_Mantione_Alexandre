@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {data} from "../../../../../data/data.js"
+import { data } from "../../data/data"
 import './HousingCard.css'
 
 
@@ -8,7 +8,7 @@ const HousingCard = () => {
   
   return myData.map((data) =>
     <div key={data.id} className='housing-card'>
-      <Link className="housing-img" to={"/Housing/"}>
+      <Link className="housing-img" to={"/housing?id=" + data.id}>
         <img src={data.cover} alt="" />
       </Link>
       <div className='gradient-filter'>

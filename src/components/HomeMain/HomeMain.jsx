@@ -1,5 +1,6 @@
 import '../../styles/Main.css';
-import HousingCard from './HousingCard/HousingCard.jsx';
+import HousingCard from '../HousingCard/HousingCard';
+
 
 const Main = () => {
 

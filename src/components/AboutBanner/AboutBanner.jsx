@@ -1,6 +1,5 @@
 import '../../styles/Banner.css';
-import aboutBanner from '../../../../assets/images/about-banner.jpg'
-// import { useLocation } from 'react-router-dom';
+import aboutBanner from '../../assets/images/about-banner.jpg'
 
 const Banner = () => {
 

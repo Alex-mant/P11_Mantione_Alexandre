@@ -1,6 +1,6 @@
 import React from "react";
-import HousingBanner from "./HousingBanner/HousingBanner";
-import HousingMain from "./HousingMain/HousingMain";
+import HousingBanner from "../../components/HousingBanner/HousingBanner";
+import HousingMain from "../../components/HousingMain/HousingMain";
 
 
 const HousingPage = () => {

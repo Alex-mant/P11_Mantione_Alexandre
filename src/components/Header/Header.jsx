@@ -7,8 +7,8 @@ const Header = () => {
   <header>
     {setMyLogo("#FF6060", 210, 68, "header")}
     <nav className='navbar-header'>
-      <Link to="/Kasa">Accueil</Link>
-      <Link to="/About">A propos</Link>
+      <Link to="/kasa">Accueil</Link>
+      <Link to="/about">A propos</Link>
     </nav>
   </header>
   )

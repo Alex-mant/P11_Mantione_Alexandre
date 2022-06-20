@@ -1,27 +1,33 @@
-import { setMyStars } from '../../../../utils/setMyStars';
+import { setMyStars } from '../../utils/setMyStars';
+import {data} from "../../data/data"
 import './HousingMain.css'
 import '../../styles/Main.css'
+import { useLocation } from 'react-router-dom';
 
 const HousingMain = () => {
+  
+  const currentId = useLocation().search.split("=")[1];
+  const [thisHousing] = data.filter((data) => data.id === currentId);
+
   return (
     <main className='housing-main'>
 
       <div className='housing-presentation'>
         <div className='title-localisation-tags'>
-          <h2>Cozy loft on the Canal Saint-Martin</h2>
-          <span className='localisation'>Paris, île-de-France</span>
+          <h2>{thisHousing.title}</h2>
+          <span className='localisation'>{thisHousing.location}</span>
           <div className='tagSection'>
-            <span className='tags'>Cozy</span>
-            <span className='tags'>Canal</span>
-            <span className='tags'>Paris10</span>
+            <span className='tags'>a faire</span>
+            <span className='tags'>a faire</span>
+            <span className='tags'>a faire</span>
           </div>
         </div>
 
         <div className='person-stars'>
 
           <div className='profilePhoto-name'>
-            <span>Alexandre<br/>Dumas</span>
-            <div className='simuPhoto'></div>
+            <span>{thisHousing.host.name.split(" ")[0]}<br/>{thisHousing.host.name.split(" ")[1]}</span>
+            <img className="simuPhoto" src={thisHousing.host.picture} alt="" />
           </div>
 
           <div className='housing-stars'>
@@ -43,7 +49,7 @@ const HousingMain = () => {
             <div className='dropdownSquare'></div>
           </div>
           <p className='text-dropdown'>
-            Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants. Au cœur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs d'affaires. Vous êtes à1 station de la gare de l'est (7 minutes à pied).
+            {thisHousing.description}
           </p>
         </div>        
 
@@ -53,13 +59,13 @@ const HousingMain = () => {
             <div className='dropdownSquare'></div>
           </div>
           <p className='text-dropdown'>
-            Climatisation <br/>
-            Wi-Fi<br/>
-            Cuisine<br/>
-            Espace de travail<br/>
-            Fer à repasser<br/>
-            Sèche-cheveux<br/>
-            Cintres<br/>
+            a faire <br/>
+            a faire<br/>
+            a faire<br/>
+            a faire<br/>
+            a faire<br/>
+            a faire<br/>
+            a faire<br/>
           </p>
         </div>
       
@@ -68,7 +74,7 @@ const HousingMain = () => {
 
     </main>
   )
-  
+
 }
-  
+
 export default HousingMain;
