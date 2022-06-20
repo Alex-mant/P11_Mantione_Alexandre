@@ -1,11 +1,10 @@
 import './HousingBanner.css';
-import homeBanner from'../../assets/images/home-banner.jpg'
 
-const HousingBanner = () => {
+const HousingBanner = ({urlBanner}) => {
 
   return (
   <div className='HousingBanner'>
-    <img className='HousingBanner-img' src={homeBanner} alt="bannière" />
+    <img className='HousingBanner-img' src={urlBanner} alt="bannière" />
   </div>
   )
 
