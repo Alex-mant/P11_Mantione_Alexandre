@@ -1,4 +1,4 @@
-/*HomePage*/
+/*Commons*/
 @media screen and (max-width: 375px){
   header{
     height: auto;
@@ -16,6 +16,10 @@
   .navbar-header a{
     margin: 0 10px 0 0;
   }
+  
+}
+/*HomePage*/
+@media screen and (max-width: 375px){
   .banner{
     max-width: 335px;
     max-height: 111px;
@@ -41,6 +45,101 @@
 }
 /*HousingPage*/
 @media screen and (max-width: 375px){
-  
+  .filter{
+    width: 42px;
+  }
+  .precedent{
+    left: 15px
+  }
+  .suivant{
+    right: 15px;
+  }
+  .carrousel{
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+  }
+  .HousingBanner{
+    max-width: 355px;
+    max-height: 255px;
+  }
+  .housing-main{
+    padding-bottom: 230px;
+  }
+  .housing-main h2 {
+    font-size: 18px;
+  }
+  .localisation{
+    font-size: 14px;
+  }
+  .tags{
+    display: flex;
+    font-size: 10px;
+    height: 17px;
+    margin-bottom: 10px;
+  }
+  .person-stars{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .person-stars span{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .simuPhoto{
+    margin-top: 3px;
+    width: 32px;
+    height: 32px;
+  }
+  .housing-presentation{
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  .housing-stars{
+    width: fit-content;
+    margin: 0 0 20px 0;
+  }
+  .stars{
+    width: 15px;
+  }
+  .dropdown-container{
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dd-container{
+    margin: 0px 20px 20px;
+  }
+  .dropdown{
+    font-size: 13px;
+    width: 335px;
+    height: 30px;
+    padding: 7px;
+  }
+  .dropdownSquare{
+    width: 13px;
+    height: 13px;
+    border-top: 2px solid White;
+    border-right: 2px solid White;
+    margin-top: 5px;
+  }
+  .dropdown-activated{
+    margin-top: 0px;
+  }
+  .dd-container ul{
+    width: 335px;
+    font-size: 12px;
+  }
+  .text-dropdown{
+    width: 335px;
+    font-size: 12px;
+  }
+  .profilePhoto-name{
+    width: auto;
+    margin-top: 10px;
+  }
 }
 /*AboutPage*/
