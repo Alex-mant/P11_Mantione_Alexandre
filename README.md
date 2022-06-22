@@ -1,4 +1,4 @@
-WEBSITE LIVE : https://kasa-p11.netlify.app/
+WEBSITE LIVE : https://alex-mant.github.io/kasa/
 
 # Getting Started with Create React App
 
