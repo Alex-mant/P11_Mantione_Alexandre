@@ -143,3 +143,22 @@
   }
 }
 /*AboutPage*/
+/*404 Page*/
+@media screen and (max-width: 375px){
+  .Error-title {
+    margin: 75px;
+    font-size: 96px;
+  }
+  .Error-message {
+    width: fit-content;
+    font-size: 18px;
+    margin: -60px auto 25px ;
+    text-align: center;
+  }
+  .Error-link{
+    font-size: 14px;
+  }
+  .error-main {
+    padding-bottom: 230px;
+  }
+}
