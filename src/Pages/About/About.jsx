@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <React.Fragment>
-      <AboutBanner />
+      <AboutBanner page="about" />
       <Main myData={myData} />
     </React.Fragment>
   )

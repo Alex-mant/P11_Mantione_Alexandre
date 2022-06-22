@@ -143,6 +143,14 @@
   }
 }
 /*AboutPage*/
+@media screen and (max-width: 375px){
+  .banner-about-responsive {
+    max-width: 335px;
+    max-height: 223px;
+    margin: 0;
+    margin: 20px;
+  }
+}
 /*404 Page*/
 @media screen and (max-width: 375px){
   .Error-title {
