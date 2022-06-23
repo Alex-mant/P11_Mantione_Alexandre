@@ -10,12 +10,15 @@
     height: 47px;
   }
   .navbar-header{
-    margin: 30px 10px 0 0;
+    margin: 30px 20px 0 0;
     font-size: 12px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
   }
   .navbar-header a{
     text-transform: uppercase;
-    margin: 0 10px 0 0;
+    margin: 0 auto;
   }
   
 }
