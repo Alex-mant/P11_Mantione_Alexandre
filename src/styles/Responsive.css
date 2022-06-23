@@ -2,7 +2,7 @@
 @media screen and (max-width: 375px){
   header{
     height: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
   }
   .logo-header{
     margin: 20px 50px 0 20px;
@@ -10,7 +10,7 @@
     height: 47px;
   }
   .navbar-header{
-    margin: 35px 10px 0 0;
+    margin: 30px 10px 0 0;
     font-size: 12px;
   }
   .navbar-header a{

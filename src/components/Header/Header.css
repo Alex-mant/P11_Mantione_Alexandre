@@ -1,18 +1,13 @@
 header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   grid-area: header;
   max-width: 1240px;
-  height: 171px;
-  margin: auto;
-}
-
-.logo-header{
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 .navbar-header{
-  margin-top: 60px;
   margin-left: 57px;
   font-weight: 600;
   cursor: pointer;
