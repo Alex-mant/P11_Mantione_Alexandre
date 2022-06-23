@@ -64,6 +64,7 @@
   .HousingBanner{
     max-width: 355px;
     max-height: 255px;
+    margin-bottom: 16px;
   }
   .housing-main{
     padding-bottom: 230px;
