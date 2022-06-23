@@ -153,6 +153,9 @@
     margin: 0;
     margin: 20px;
   }
+  .about-main{
+    padding: 0px 55px 209px 55px;
+  }
 }
 /*404 Page*/
 @media screen and (max-width: 375px){
