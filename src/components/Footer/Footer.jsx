@@ -1,10 +1,10 @@
-import { setMyLogo } from '../../utils/setMyLogo';
+import SetMyLogo  from '../../utils/SetMyLogo';
 import './Footer.css';
 
 const Footer = () => {
   return (
     <footer>
-      {setMyLogo('white', 122, 40, 'footer')}
+      <SetMyLogo color="white" width="122" heigth="40" name="footer"/>
     <span className='copyright'>© 2020 Kasa. All rights reserved</span>
     </footer>
     )
