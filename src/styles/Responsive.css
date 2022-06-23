@@ -14,6 +14,7 @@
     font-size: 12px;
   }
   .navbar-header a{
+    text-transform: uppercase;
     margin: 0 10px 0 0;
   }
   
@@ -78,6 +79,7 @@
     font-size: 10px;
     height: 17px;
     margin-bottom: 10px;
+    border-radius: 5px;
   }
   .person-stars{
     display: flex;
@@ -118,6 +120,7 @@
     width: 335px;
     height: 30px;
     padding: 7px;
+    border-radius: 5px;
   }
   .dropdownSquare{
     width: 13px;
