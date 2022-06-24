@@ -1,4 +1,4 @@
-WEBSITE LIVE : https://alex-mant.github.io/kasa/
+WEBSITE LIVE : https://alex-mant.github.io/kasa/home
 
 # Getting Started with Create React App
 
