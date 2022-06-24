@@ -3,8 +3,13 @@ import '../../styles/Main.css'
 import HousingTags from '../HousingTags/HousingTags';
 import Dropdown from '../Dropdown/Dropdown';
 import SetMyStars from '../../utils/SetMyStars'
+import { useEffect } from 'react';
 
 const HousingMain = ({currentHousing}) =>{
+  useEffect(() => {
+
+    console.log();
+  })
 
   return (
     <main className='housing-main'>
@@ -19,7 +24,7 @@ const HousingMain = ({currentHousing}) =>{
         <div className='person-stars'>
 
           <div className='profilePhoto-name'>
-            <span>{currentHousing.host.name.split(" ")[0]}<br/>{currentHousing.host.name.split(" ")[1]}</span>
+            <span>{currentHousing.host.name}</span>
             <img className="simuPhoto" src={currentHousing.host.picture} alt="" />
           </div>
 

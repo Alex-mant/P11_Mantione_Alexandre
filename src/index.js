@@ -19,9 +19,9 @@ root.render(
         < Header />
         <ScrollToTop>
           <Routes>            
-            < Route exact path='/kasa' element= {<Home />} />  
-            < Route path='/about' element= {<About />} />
-            < Route path= '/housing' element = {<HousingPage/>} />
+            < Route exact path='/kasa/home' element= {<Home />} />  
+            < Route path='/kasa/about' element= {<About />} />
+            < Route path= '/kasa/home/housing' element = {<HousingPage/>} />
             < Route path="*" element= {<Error404 />} />  
           </Routes>
         </ScrollToTop>

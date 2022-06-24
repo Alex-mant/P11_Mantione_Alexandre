@@ -8,8 +8,8 @@ const Header = () => {
   <header>
     <SetMyLogo color="#FF6060" width="210" heigth="68" name="header"/>
     <nav className='navbar-header'>
-      <NavLink to="/kasa" style={{textDecoration: IsActive("/kasa") ? "underline" : "none"}}>Accueil</NavLink>
-      <NavLink to="/about" style={{textDecoration: IsActive("/about") ? "underline" : "none"}}>A propos</NavLink>
+      <NavLink to="/kasa/home" className={IsActive("/kasa/home") ? "active-link" : "inactive-link"} style={{textDecoration: IsActive("/kasa/home/housing") ? "underline" : ""}}>Accueil</NavLink>
+      <NavLink to="/kasa/about" className={IsActive("/kasa/about") ? "active-link" : "inactive-link"}>A propos</NavLink>
     </nav>
   </header>
   )

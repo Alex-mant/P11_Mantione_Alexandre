@@ -8,7 +8,7 @@ const HousingCard = () => {
   
   return myData.map((data) =>
     <div key={data.id} className='housing-card'>
-      <Link className="housing-img" to={"/housing?id=" + data.id}>
+      <Link className="housing-img" to={"/kasa/home/housing?id=" + data.id}>
         <img src={data.cover} alt="" />
       </Link>
       <div className='gradient-filter'>
