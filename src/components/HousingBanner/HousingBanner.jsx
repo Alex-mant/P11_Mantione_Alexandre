@@ -14,11 +14,11 @@ const HousingBanner = ({currentHousing}) => {
 
   return (
   <div className='HousingBanner'>
-    <div className='carrousel precedent' onClick={previous}></div>
-    <div className='filter filLeft'></div>
+    <div className={currentHousing.pictures.length > 1 ?'carrousel precedent': ''} onClick={previous}></div>
+    <div className={currentHousing.pictures.length > 1 ?'filter filLeft':''}></div>
     <img className='HousingBanner-img' src={currentHousing.pictures[index]} alt="bannière" />
-    <div className='filter filRight'></div>
-    <div className='carrousel suivant' onClick={next}></div>
+    <div className={currentHousing.pictures.length > 1 ?'filter filRight':''}></div>
+    <div className={currentHousing.pictures.length > 1 ?'carrousel suivant': ''} onClick={next}></div>
   </div>
   )
 
