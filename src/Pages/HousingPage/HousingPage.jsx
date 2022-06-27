@@ -8,6 +8,8 @@ const HousingPage = () => {
   const currentId = useLocation().search.split("=")[1];
   const [currentHousing] = data.filter((data) => data.id === currentId);
 
+ if(currentHousing === undefined) window.location.href = "/kasa/error404";
+
   return (
     <React.Fragment>
       < HousingBanner currentHousing={currentHousing}/>

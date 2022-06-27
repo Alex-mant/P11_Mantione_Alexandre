@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/Error.css'
 
-const Error404 = () => {
+const Error404 = () => {  
 
   useEffect(() =>{
     document.querySelector('main').style.background = "#ffff"
