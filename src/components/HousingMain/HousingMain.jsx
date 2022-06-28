@@ -1,5 +1,3 @@
-import './HousingMain.css'
-import '../../styles/Main.css'
 import HousingTags from '../HousingTags/HousingTags';
 import Dropdown from '../Dropdown/Dropdown';
 import SetMyStars from '../../utils/SetMyStars'

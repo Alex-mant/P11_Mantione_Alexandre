@@ -1,4 +1,3 @@
-import '../../styles/Banner.css';
 import aboutBanner from '../../assets/images/about-banner.jpg'
 
 const Banner = ({page}) => {

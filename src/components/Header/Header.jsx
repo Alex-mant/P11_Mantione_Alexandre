@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import IsActive from '../../utils/IsActive';
 import SetMyLogo from '../../utils/SetMyLogo';
-import './Header.css';
 
 const Header = () => {
   return (

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { data } from "../../data/data"
-import './HousingCard.css'
 
 
 const HousingCard = () => {
