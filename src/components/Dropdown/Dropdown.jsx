@@ -7,7 +7,7 @@ const Dropdown = ({name, text}) => {
   
   return(
   <div className='dd-container'>
-    <div className='dropdown'> {/* classe css à revoir */}
+    <div className='dropdown'>
       <span>{name}</span>
       <div className='dropdownSquare' onClick={hideOrShow.bind(this)}></div>
     </div>

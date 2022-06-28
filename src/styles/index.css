@@ -17,3 +17,372 @@ code {
 *{
   box-sizing: border-box;
 }
+
+/*Main*/
+.error-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main, .about-main, .error-main{
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+  padding: 55px 55px 340px 55px;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.home-main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.housing-main{
+  padding-bottom: 340px;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.about-main .dd-container{
+  max-width: 1024px;
+  margin: auto;
+}
+
+.about-main .dropdown{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-main{
+  background-color: #FFFFFF;
+  padding-top: 0;
+}
+
+.about-main .text-dropdown{
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+/* housing main*/
+.housing-main h2{
+  color: #FF6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.localisation{
+  font-size: 18px;
+  color: #FF6060;
+}
+
+.tagSection{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags{
+  cursor: pointer;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  background-color: #FF6060;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 25px;
+  color: #FFFF;
+  text-align: center;
+  font-weight: 500;
+}
+
+.housing-presentation{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.dropdown-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown{
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  width: 582px;
+  height: 52px;
+  background-color:#FF6060;
+  border-radius: 10px;
+  color: #FFFF;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.dropdownSquare{
+  width: 18px;
+  height: 18px;
+  border-top: 3px solid White;
+  border-right: 3px solid White;
+  margin-top: 7px;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+.dropdown-activated{ 
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.simuPhoto{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+.profilePhoto-name{
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+}
+
+.profilePhoto-name span {
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 5px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 10px;
+  color: #FF6060;
+}
+
+.housing-stars{
+  padding-top: 18px;
+}
+
+.text-dropdown{
+  background-color: #F6F6F6;
+  color: #FF6060;
+  font-weight: 400;
+  width: 582px;
+  margin: -10px auto;
+  padding: 25px 15px;
+  border-radius: 0 0 10px 10px;
+}
+
+ul{
+  list-style: none;
+  background-color: #F6F6F6;
+  color: #FF6060;
+  font-weight: 400;
+  width: 582px;
+  margin: -5px auto;
+  padding: 25px 15px;
+  border-radius: 0 0 10px 10px;
+  line-height: 25.67px
+}
+/* Housing Banner */
+.HousingBanner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1240px;
+  height: 415px;
+  background-color: rgba(97, 94, 94, 0.651);
+  border-radius: 25px;
+  margin: auto auto 45px auto;
+  overflow: hidden;
+}
+
+.HousingBanner-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrousel{
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-top: 7px solid White;
+  border-right: 7px solid White;
+  margin-top: 7px;
+}
+.precedent{
+  left: 30px;
+  transform: rotate(225deg);
+}
+.suivant{
+  right: 30px;
+  transform: rotate(45deg);
+}
+.filter{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.148);
+  z-index: 2;
+}
+.filLeft{
+  left: 0;
+}
+.filRight{
+  right: 0;
+}
+/* Banner */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1240px;
+  height: 223px;
+  background-color: rgba(97, 94, 94, 0.651);
+  border-radius: 10px;
+  margin: auto auto 45px auto;
+  overflow: hidden;
+}
+
+.banner-title{ 
+  position: absolute;
+  z-index: 1;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner-img{
+  width: 100%;
+  height: 223px;
+  object-fit: cover;
+}
+
+.banner-filter{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.30);
+  width: 100%;
+  height: 100%;
+} 
+
+/*Footer*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 209px;
+  color: #ffff;
+  position: absolute;
+  bottom: 0;
+}
+
+.copyright{
+  margin-top: 35px;
+  color: #ffff;
+}
+
+.logo-footer{
+  color: #ffff;
+}
+
+/*Error404*/
+.Error-title{
+  margin-top: -30px;
+  font-size: 290px;
+}
+
+.Error-message{
+  font-size: 36px;
+  margin-top: -220px;
+}
+
+.Error-text-format{
+  color: #FF6060;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.back-to-home {
+  font-size: 18px;
+  margin: 100px auto 150px auto;
+}
+/*Header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 40px auto;
+}
+
+.navbar-header{
+  margin-left: 57px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.navbar-header a{
+  color: #FF6060;
+  margin-left: 60px;
+}
+
+.active-link{
+  text-decoration: underline;
+}
+
+.inactive-link{
+  text-decoration: none;
+}
+
+/* housingCard */
+
+.housing-card{
+  position: relative;
+  max-height: 340px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+img{
+  width: 340px;
+  height: 340px;
+  object-fit: cover;
+}
+
+.gradient-filter{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 340px;
+  height: 80px;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.housing-name{
+  left: 20px;
+  padding: 20px;
+  color: #FFFF;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}

@@ -1,6 +1,6 @@
 /*Commons*/
 @media screen and (max-width: 375px){
-  header{
+  body header{
     height: auto;
     margin: 0 auto 20px auto;
   }
@@ -11,13 +11,13 @@
   }
   .navbar-header{
     margin: 30px 20px 0 0;
-    font-size: 12px;
     width: 140px;
     display: flex;
     justify-content: space-between;
   }
   .navbar-header a{
     text-transform: uppercase;
+    font-size: 12px;
     margin: 0 auto;
   }
   

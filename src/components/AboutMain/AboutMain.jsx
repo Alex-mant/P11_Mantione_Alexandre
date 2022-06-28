@@ -1,4 +1,3 @@
-import '../../styles/Main.css';
 import Dropdown from '../Dropdown/Dropdown';
 
 const Main = () => {
