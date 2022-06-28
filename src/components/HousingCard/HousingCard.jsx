@@ -1,11 +1,12 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { data } from "../../data/data"
+import { DataContext } from "../../utils/DataContext";
 
 
 const HousingCard = () => {
-  const myData = data;
+  const {data} = useContext(DataContext);
   
-  return myData.map((data) =>
+  return data.map((data) =>
     <div key={data.id} className='housing-card'>
       <Link className="housing-img" to={"/kasa/home/housing?id=" + data.id}>
         <img src={data.cover} alt="" />

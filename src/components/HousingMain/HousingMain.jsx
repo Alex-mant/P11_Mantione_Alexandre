@@ -1,13 +1,8 @@
 import HousingTags from '../HousingTags/HousingTags';
 import Dropdown from '../Dropdown/Dropdown';
 import SetMyStars from '../../utils/SetMyStars'
-import { useEffect } from 'react';
 
 const HousingMain = ({currentHousing}) =>{
-  useEffect(() => {
-
-    console.log();
-  })
 
   return (
     <main className='housing-main'>
