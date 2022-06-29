@@ -1,6 +1,7 @@
-import HousingTags from '../HousingTags/HousingTags';
-import Dropdown from '../Dropdown/Dropdown';
+import HousingTags from '../HousingTags/index';
+import Dropdown from '../Dropdown/index';
 import SetMyStars from '../../utils/SetMyStars'
+import "./style.css";
 
 const HousingMain = ({currentHousing}) =>{
 

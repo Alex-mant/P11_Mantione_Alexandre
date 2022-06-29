@@ -1,4 +1,5 @@
 import SetMyLogo  from '../../utils/SetMyLogo';
+import "./style.css"
 
 const Footer = () => {
   return (

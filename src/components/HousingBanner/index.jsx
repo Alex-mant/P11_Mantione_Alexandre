@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./style.css"
 
 const HousingBanner = ({currentHousing}) => {
   let [index, setIndex] = useState(0);

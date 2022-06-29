@@ -1,6 +1,6 @@
 import React from "react"
-import AboutBanner from "../../components/AboutBanner/AboutBanner";
-import Main from "../../components/AboutMain/AboutMain";
+import AboutBanner from "../../components/AboutBanner/index";
+import Main from "../../components/AboutMain/index";
 
 const About = () => {
 

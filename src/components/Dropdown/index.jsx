@@ -1,3 +1,5 @@
+import "./style.css"
+
 const Dropdown = ({name, text}) => {
   const hideOrShow = (el) => {
     const text = el.target.parentElement.parentElement.children[1]

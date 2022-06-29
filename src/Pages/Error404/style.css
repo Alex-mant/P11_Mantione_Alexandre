@@ -1,0 +1,32 @@
+.error-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+  padding: 55px 55px 340px 55px;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.Error-title{
+  margin-top: -30px;
+  font-size: 290px;
+}
+
+.Error-message{
+  font-size: 36px;
+  margin-top: -220px;
+}
+
+.Error-text-format{
+  color: #FF6060;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.back-to-home {
+  font-size: 18px;
+  margin: 100px auto 150px auto;
+}

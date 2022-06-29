@@ -1,4 +1,5 @@
-import Dropdown from '../Dropdown/Dropdown';
+import Dropdown from '../Dropdown/index';
+import "./style.css";
 
 const Main = () => {
   return (

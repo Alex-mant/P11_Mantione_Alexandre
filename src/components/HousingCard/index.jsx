@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { DataContext } from "../../utils/DataContext";
+import { DataContext } from "../../context/DataContext";
+import "./style.css"
 
 
 const HousingCard = () => {
@@ -10,10 +11,10 @@ const HousingCard = () => {
     <div key={data.id} className='housing-card'>
       <Link className="housing-img" to={"/kasa/home/housing?id=" + data.id}>
         <img src={data.cover} alt="" />
+        <div className='gradient-filter'>
+          <span className='housing-name'>{data.title}</span>
+        </div> 
       </Link>
-      <div className='gradient-filter'>
-        <span className='housing-name'>{data.title}</span>
-      </div> 
     </div>
   )
 };
