@@ -1,11 +1,11 @@
 WEBSITE LIVE : https://alex-mant.github.io/kasa/home
 
-TODO:
+TODO: [EMPTY]
 
 CURRENT TASK:
 [C] Ajouter un message lorsque l'API n'est pas disponible.
 
-TEST:
+TEST: [EMPTY]
 
 DONE: 
 [V] Renommer Pages en pages
