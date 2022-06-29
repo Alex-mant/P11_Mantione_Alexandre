@@ -1,7 +1,7 @@
 {
   "name": "kasa",
   "version": "0.1.0",
-  "homepage": "http://localhost:3000/kasa",
+  "homepage": "http://localhost:3000/kasa/home",
   "private": true,
   "proxy": "https://s3-eu-west-1.amazonaws.com",
   "dependencies": {
