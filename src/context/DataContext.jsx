@@ -9,7 +9,7 @@ const DataContextProvider = (props) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json").then((res) => setData(res.data))
+    axios.get("/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json").then((res) => setData(res.data))
   }, [])
 
   console.log(data);
