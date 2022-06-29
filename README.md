@@ -1,5 +1,7 @@
 ## WEBSITE LIVE : https://alex-mant.github.io/kasa/home
 
+## AVANCEMENT PROJET : 99%
+
 ## TODO:
 
 ## CURRENT TASK:
