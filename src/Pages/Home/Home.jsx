@@ -1,6 +1,6 @@
 import React from "react"
-import Banner from "../../components/HomeBanner/HomeBanner";
-import Main from "../../components/HomeMain/HomeMain";
+import Banner from "../../components/HomeBanner/index";
+import Main from "../../components/HomeMain/index";
 
 
 

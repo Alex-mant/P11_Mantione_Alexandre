@@ -1,0 +1,14 @@
+.home-main{
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+  padding: 55px 55px 340px 55px;
+  max-width: 1240px;
+  margin: auto;
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  
+}

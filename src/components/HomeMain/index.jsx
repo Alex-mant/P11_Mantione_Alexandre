@@ -1,4 +1,5 @@
-import HousingCard from '../HousingCard/HousingCard';
+import HousingCard from '../HousingCard/index';
+import "./style.css"
 
 
 const Main = () => {
