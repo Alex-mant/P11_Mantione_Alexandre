@@ -1,13 +1,13 @@
-##WEBSITE LIVE : https://alex-mant.github.io/kasa/home
+## WEBSITE LIVE : https://alex-mant.github.io/kasa/home
 
-##TODO:
+## TODO:
 
-##CURRENT TASK:
+## CURRENT TASK:
 - [ ] Ajouter un message lorsque l'API n'est pas disponible.
 
-##TEST:
+## TEST:
 
-##DONE: 
+## DONE: 
 - [X] Renommer Pages en pages
 - [X] Dans le dossier styles renommer Responsive.css par responsive.css.
 - [X] Créer un dossier "context" avec le context pour améliorer la lisibilité de l'architecture de ton projet.
