@@ -6,7 +6,7 @@ const Main = () => {
 
   return (
     <main className='home-main'>
-       {HousingCard()}
+      <HousingCard/>
     </main>
   )
 }

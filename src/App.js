@@ -1,10 +1,10 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import ScrollToTop from './utils/ScrollToTop';
-import HousingPage from './pages/HousingPage/HousingPage';
+import HousingPage from './pages/HousingPage';
 import Header from './components/Header/index';
-import Home from './pages/Home/Home';
-import Error404 from './pages/Error404/Error404';
-import About from './pages/About/About';
+import Home from './pages/Home';
+import Error404 from './pages/Error404';
+import About from './pages/About';
 import Footer from './components/Footer/index';
 import DataContextProvider from './context/DataContext';
 
