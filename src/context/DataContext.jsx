@@ -11,8 +11,6 @@ const DataContextProvider = (props) => {
   useEffect(() => {
     axios.get("/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json").then((res) => setData(res.data))
   }, [])
-
-  console.log(data);
   
   return(
     <DataContext.Provider value={{data}} >
